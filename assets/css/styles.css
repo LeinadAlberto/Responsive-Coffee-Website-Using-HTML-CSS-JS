@@ -213,7 +213,33 @@ img {
 
 
 /*=============== HOME ===============*/
+.home__container {
+	position: relative;
+	padding-top: 3rem;
+	row-gap: 0;
+}
 
+.home__title { 
+	color: var(--white-color);
+	font-size: var(--biggest-font-size);
+	font-weight: var(--font-semi-bold);
+	text-align: center;
+}
+
+.home__images {
+	position: relative;
+	display: grid;
+	justify-items: center;
+	justify-self: center;
+}
+
+.home__shape {
+	width: 280px;
+	height: 280px;
+	background-color: var(--first-color);
+	border-radius: 50%;
+	clip-path: inset(50% 0 0 0);
+}
 
 /*=============== BUTTON ===============*/
 
