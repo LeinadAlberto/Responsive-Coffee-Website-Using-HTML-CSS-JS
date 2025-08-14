@@ -586,6 +586,27 @@ img {
 }
 
 /*=============== CONTACT ===============*/
+.contact .section__title {
+	color: var(--white-color);
+}
+
+.contact__container, 
+.contact__info {
+	row-gap: 2rem;
+}
+
+.contact__info {
+	color: var(--white-color);
+	text-align: center;
+}
+
+.contact__title {
+	font-size: var(--h1-font-size);
+	margin-bottom: .5rem;
+}
+
+.contact__social-
+
 
 
 /*=============== FOOTER ===============*/
